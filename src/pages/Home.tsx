@@ -76,8 +76,8 @@ const Home = () => {
       >
         <div className="container mx-auto px-6 relative z-10">
           <div className="max-w-4xl mx-auto text-center space-y-8 animate-fade-in">
-            <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-tight">
-              Modern IT consulting for results — not buzzwords.
+            <h1 className="text-4xl font-bold text-white leading-snug">
+              Modern IT consulting for results — Innovate, Identify, Integrate and Implement.
             </h1>
             <p className="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto">
               Cloud, DevOps, QA & performance, cybersecurity, and 24×7 operations for regulated U.S. industries.
@@ -90,7 +90,7 @@ const Home = () => {
                 </Button>
               </Link>
               <Link to="/case-studies">
-                <Button variant="outline" className="rounded-full px-8 py-6 text-lg border-2 border-white text-white hover:bg-white hover:text-navy transition-all">
+                <Button className="gradient-primary text-white border-0 rounded-full px-8 py-6 text-lg hover:opacity-90 transition-opacity">
                   See Case Studies
                 </Button>
               </Link>

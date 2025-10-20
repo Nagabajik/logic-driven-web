@@ -36,9 +36,8 @@ const Navigation = () => {
       <nav className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center space-x-2 group">
-            <div className="w-8 h-8 rounded-lg gradient-primary flex items-center justify-center transition-transform group-hover:scale-105">
-              <span className="text-white font-bold text-lg">iL</span>
-            </div>
+            {/* Logo image (place file at src/assets/iL-Symbol.png) */}
+            <img src="/src/assets/iL-Symbol.png" alt="iLOGIC logo" className="w-8 h-8 rounded-md object-contain transition-transform group-hover:scale-105" />
             <span className="text-xl font-bold bg-gradient-to-r from-sky to-cyan bg-clip-text text-transparent">
               iLOGIC Systems
             </span>

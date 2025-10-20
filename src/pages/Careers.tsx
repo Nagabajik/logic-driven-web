@@ -138,11 +138,11 @@ const Careers = () => {
             <p className="text-muted-foreground mb-4">
               Don't see the right role? We're always looking for talented people.
             </p>
-            <a 
-              href="mailto:careers@ilogicsystems.example" 
+            <a
+              href="mailto:careers@ilogicsys.com"
               className="text-accent hover:underline font-medium"
             >
-              Send us your resume at careers@ilogicsystems.example
+              Send us your resume at careers@ilogicsys.com
             </a>
           </div>
         </div>

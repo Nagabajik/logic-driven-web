@@ -11,13 +11,12 @@ const Footer = () => {
           {/* Brand */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <div className="w-8 h-8 rounded-lg gradient-primary flex items-center justify-center">
-                <span className="text-white font-bold text-lg">iL</span>
+                {/* Place your logo at `src/assets/iL-Symbol.png` (copy from C:\Naga\ILS\Templates\iL-Symbol.png) */}
+                <img src="/src/assets/iL-Symbol.png" alt="iLOGIC logo" className="w-8 h-8 rounded-md object-contain" />
+                <span className="text-xl font-bold bg-gradient-to-r from-sky to-cyan bg-clip-text text-transparent">
+                  iLOGIC Systems
+                </span>
               </div>
-              <span className="text-xl font-bold bg-gradient-to-r from-sky to-cyan bg-clip-text text-transparent">
-                iLOGIC Systems
-              </span>
-            </div>
             <p className="text-sm text-gray-400">
               innovate. integrate. ideliver.
             </p>
@@ -51,14 +50,14 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-center space-x-2 text-sm text-gray-400">
                 <Mail className="h-4 w-4 text-sky" />
-                <a href="mailto:hello@ilogicsystems.example" className="hover:text-sky transition-colors">
-                  hello@ilogicsystems.example
+                <a href="mailto:hr@ilogicsys.com" className="hover:text-sky transition-colors">
+                  hr@ilogicsys.com
                 </a>
               </li>
               <li className="flex items-center space-x-2 text-sm text-gray-400">
                 <Phone className="h-4 w-4 text-sky" />
-                <a href="tel:+15550100" className="hover:text-sky transition-colors">
-                  +1 (555) 0100
+                <a href="tel:+19169001009" className="hover:text-sky transition-colors">
+                  916-900-1009
                 </a>
               </li>
               <li className="flex items-center space-x-2 text-sm text-gray-400">
