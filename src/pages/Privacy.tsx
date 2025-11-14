@@ -49,14 +49,14 @@ const Privacy = () => {
               <h2 className="text-2xl font-bold mb-4 text-foreground">Your Rights</h2>
               <p className="text-muted-foreground leading-relaxed">
                 You have the right to access, correct, or delete your personal information at any time. 
-                Contact us at hr@ilogicsys.com to exercise these rights.
+                Contact us at info@ilogicsys.com to exercise these rights.
               </p>
             </section>
 
             <section>
               <h2 className="text-2xl font-bold mb-4 text-foreground">Contact</h2>
               <p className="text-muted-foreground leading-relaxed">
-                For questions about this privacy policy, please contact us at hr@ilogicsys.com
+                For questions about this privacy policy, please contact us at info@ilogicsys.com
               </p>
             </section>
           </Card>
