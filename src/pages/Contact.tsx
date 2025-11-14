@@ -29,7 +29,7 @@ const Contact = () => {
       form.message || '',
     ].join('\n');
 
-    const mailto = `mailto:hr@ilogicsys.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    const mailto = `mailto:info@ilogicsys.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
     window.location.href = mailto;
     setForm({ name: '', email: '', company: '', budget: '', message: '' });
     setSending(false);
@@ -63,7 +63,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <h3 className="font-semibold mb-1 text-foreground">Email</h3>
-                      <a href="mailto:hr@ilogicsys.com" className="text-accent hover:underline">hr@ilogicsys.com</a>
+                      <a href="mailto:info@ilogicsys.com" className="text-accent hover:underline">info@ilogicsys.com</a>
                     </div>
                   </div>
                 </Card>
