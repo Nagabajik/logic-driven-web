@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Mail, Phone, MapPin } from "lucide-react";
+import logo from "@/assets/iL-Symbol.png";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -11,8 +12,7 @@ const Footer = () => {
           {/* Brand */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-                {/* Place your logo at `src/assets/iL-Symbol.png` (copy from C:\Naga\ILS\Templates\iL-Symbol.png) */}
-                <img src="/src/assets/iL-Symbol.png" alt="iLOGIC logo" className="w-8 h-8 rounded-md object-contain" />
+                <img src={logo} alt="iLOGIC logo" className="w-8 h-8 rounded-md object-contain" />
                 <span className="text-xl font-bold bg-gradient-to-r from-sky to-cyan bg-clip-text text-transparent">
                   iLOGIC Systems
                 </span>
