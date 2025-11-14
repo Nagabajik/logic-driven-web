@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
+import logo from "@/assets/iL-Symbol.png";
 
 const Navigation = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -36,8 +37,7 @@ const Navigation = () => {
       <nav className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center space-x-2 group">
-            {/* Logo image (place file at src/assets/iL-Symbol.png) */}
-            <img src="/src/assets/iL-Symbol.png" alt="iLOGIC logo" className="w-8 h-8 rounded-md object-contain transition-transform group-hover:scale-105" />
+            <img src={logo} alt="iLOGIC logo" className="w-8 h-8 rounded-md object-contain transition-transform group-hover:scale-105" />
             <span className="text-xl font-bold bg-gradient-to-r from-sky to-cyan bg-clip-text text-transparent">
               iLOGIC Systems
             </span>
