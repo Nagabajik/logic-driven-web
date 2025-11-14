@@ -18,7 +18,7 @@ const Footer = () => {
                 </span>
               </div>
             <p className="text-sm text-gray-400">
-              innovate. integrate. ideliver.
+              innovate. integrate. implement.
             </p>
           </div>
 
